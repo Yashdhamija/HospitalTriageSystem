@@ -1,6 +1,6 @@
 # HospitalTriageSystem
 
-This is an implmentation of a system to triage patients in a hospital emergency ward. 
+This is an implementation of a system to triage patients in a hospital emergency ward. 
 Patients are triaged according to both medical priority and wait time. Priorities are positive integers; the highest priority is 1. Normally patients are seen in priority order. However, if there are patients who have waited longer than a specified time (maxWait), they are seen first, in order of their arrival.
 
 Adding a patient to the system when they arrive, and also removing the next patient to be seen from the system when a physician becomes available are done in linear time.
